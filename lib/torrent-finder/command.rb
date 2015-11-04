@@ -21,7 +21,7 @@ module TorrentFinder
     def initialize(argv)
       @use_peerflix = argv.flag?('peerflix', false)
       @list = argv.flag?('list', false)
-      @site = argv.option('site', "popgo")
+      @site = argv.option('site', "tpb")
       @keywords = argv.shift_argument
 
       super
