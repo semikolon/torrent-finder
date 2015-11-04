@@ -1,10 +1,10 @@
 require 'spec_helper'
-require 'torrent-finder/adapters/eztv_adapter'
+require 'torrent-finder/adapters/tpb_adapter'
 
-describe TorrentFinder::Adapters::EztvAdapter do
+describe TorrentFinder::Adapters::TpbAdapter do
   context "#name" do
-    it "should be eztv" do 
-      expect(TorrentFinder::Adapters::EztvAdapter.name).to eq("eztv")
+    it "should be tpb" do 
+      expect(TorrentFinder::Adapters::TpbAdapter.name).to eq("tpb")
     end
   end
 
@@ -12,7 +12,7 @@ describe TorrentFinder::Adapters::EztvAdapter do
     it "should list first page of torrent" do
       list = subject.list
       expect(list).to be_a(Array)
-      expect(list.any?{|item| item[:name] =~ /Survivor/}).to be_truthy
+      expect(list.any?{|item| item[:name] =~ /Colbert/}).to be_truthy
     end
   end
 

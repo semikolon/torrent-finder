@@ -5,10 +5,10 @@ require 'mechanize'
 
 module TorrentFinder
   module Adapters
-    class EztvAdapter < Adapter
+    class TpbAdapter < Adapter
       # name of the adapter
       def self.name
-        "eztv"
+        "tpb"
       end
 
       # list recently available torrent
