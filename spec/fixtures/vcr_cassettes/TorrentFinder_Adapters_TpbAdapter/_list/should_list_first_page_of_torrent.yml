@@ -1,0 +1,651 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://thepiratebay.mn/browse/208
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Wed, 04 Nov 2015 10:50:50 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - PHPSESSID=0de4a8077d55343abb1133ce69d58972; path=/; domain=.thepiratebay.mn
+      - __cfduid=d70b11fd265e5e6e398e1a9087ba58f481446634250; expires=Thu, 03-Nov-16
+        10:50:50 GMT; path=/; domain=.thepiratebay.mn; HttpOnly
+      - language=en_EN; expires=Thu, 03-Nov-2016 10:50:50 GMT; path=/; domain=.thepiratebay.mn
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - private, max-age=10800, pre-check=10800
+      Last-Modified:
+      - Wed, 28 Jan 2015 08:06:42 GMT
+      Vary:
+      - Accept-Encoding
+      Cf-Ray:
+      - 23ffc29fa9c2378c-ARN
+    body:
+      encoding: ASCII-8BIT
+      string: "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>Video &gt;
+        HD - TV shows - TPB</title>\n    <meta http-equiv=\"Content-Type\" content=\"text/html;
+        charset=utf-8\"/>\n    <meta name=\"google-site-verification\" content=\"bERYeomIC5eBWlPLupPPYPYGA9GvAUKzFHh3WIw24Xs\"
+        />\n    <link rel=\"search\" type=\"application/opensearchdescription+xml\"
+        href=\"/opensearch.xml\" title=\"Search The Pirate Bay\" />\n    <link rel=\"stylesheet\"
+        type=\"text/css\" href=\"https://piratebay.org/css/pirate6.css\"/>\n    <link
+        rel=\"dns-prefetch\" href=\"//adbrau.com/\">\n    <link rel=\"dns-prefetch\"
+        href=\"//cdn.adbrau.com/\">\n    <link rel=\"dns-prefetch\" href=\"//cdn3.adbrau.com/\">\n
+        \   <link rel=\"dns-prefetch\" href=\"//syndication.exoclick.com/\">\n    <link
+        rel=\"dns-prefetch\" href=\"//main.exoclick.com/\">\n    <link rel=\"dns-prefetch\"
+        href=\"//static-ssl.exoclick.com/\">\n    <link rel=\"dns-prefetch\" href=\"//ads.exoclick.com/\">\n
+        \   <link rel=\"canonical\" href=\"//thepiratebay.mn/browse/208\" />\n    <style
+        type=\"text/css\">\n        .searchBox{\n            margin: 6px;\n            width:
+        300px;\n            vertical-align: middle;\n            padding: 2px;\n            background-image:url('https://piratebay.org/img/icon-https.gif');\n
+        \           background-repeat:no-repeat;\n            background-position:
+        right;\n        }\n        .detLink {\n            font-size: 1.2em;\n            font-weight:
+        400;\n        }\n        .detDesc {\n            color: #4e5456;\n        }\n
+        \       .detDesc a:hover {\n            color: #000099;\n            text-decoration:
+        underline;\n        }\n        .sortby {\n            text-align: left;\n
+        \           float: left;\n        }\n        .detName {\n            padding-top:
+        3px;\n            padding-bottom: 2px;\n        }\n        .viewswitch {\n
+        \           font-style: normal;\n            float: right;\n            text-align:
+        right;\n            font-weight: normal;\n        }\n    </style>\n    <script
+        src=\"https://piratebay.org/js/jquery.min.js\" type=\"text/javascript\"></script>\n
+        \   <script src=\"https://piratebay.org/js/tpb.js\" type=\"text/javascript\"></script>\n\t<meta
+        name=\"description\" content=\"Browse and Download any torrent from the category
+        Video &gt; HD - TV shows. Direct download via magnet link.\"/>\n\t<meta name=\"keywords\"
+        content=\"Video HD - TV shows direct download torrent magnet tpb piratebay
+        browse category video\"/>\n\n    <script language=\"javascript\" type=\"text/javascript\">if
+        (top.location != self.location) {top.location.replace(self.location);}</script>\n</head>\n\n<body>\n
+        \   <div id=\"header\">\n\n        <form method=\"get\" id=\"q\" action=\"/s/\">\n
+        \           <a href=\"/\" class=\"img\"><img src=\"https://piratebay.org/img/tpblogo_sm_ny.gif\"
+        id=\"TPBlogo\" alt=\"The Pirate Bay\" /></a>\n            <b><a href=\"/\"
+        title=\"Search Torrents\">Search Torrents</a></b>&nbsp;&nbsp;|&nbsp;\n <a
+        href=\"/browse\" title=\"Browse Torrents\">Browse Torrents</a>&nbsp;&nbsp;|&nbsp;\n
+        <a href=\"/recent\" title=\"Recent Torrent\">Recent Torrents</a>&nbsp;&nbsp;|&nbsp;\n
+        <a href=\"/tv/\" title=\"TV shows\">TV shows</a>&nbsp;&nbsp;|&nbsp;\n <a href=\"/music\"
+        title=\"Music\">Music</a>&nbsp;&nbsp;|&nbsp;\n <a href=\"/top\" title=\"Top
+        100\">Top 100</a>\n            <br /><input type=\"search\" class=\"inputbox\"
+        title=\"Pirate Search\" name=\"q\" placeholder=\"Search here...\" value=\"\"
+        /><input value=\"Pirate Search\" type=\"submit\" class=\"submitbutton\" /><br
+        />            <label for=\"audio\" title=\"Audio\"><input id=\"audio\" name=\"audio\"
+        onclick=\"javascript:rmAll();\" type=\"checkbox\"/>Audio</label>\n            <label
+        for=\"video\" title=\"Video\"><input id=\"video\" name=\"video\" onclick=\"javascript:rmAll();\"
+        type=\"checkbox\"/>Video</label>\n            <label for=\"apps\" title=\"Applications\"><input
+        id=\"apps\" name=\"apps\" onclick=\"javascript:rmAll();\" type=\"checkbox\"/>Applications</label>\n
+        \           <label for=\"games\" title=\"Games\"><input id=\"games\" name=\"games\"
+        onclick=\"javascript:rmAll();\" type=\"checkbox\"/>Games</label>\n            <label
+        for=\"porn\" title=\"Porn\"><input id=\"porn\" name=\"porn\" onclick=\"javascript:rmAll();\"
+        type=\"checkbox\"/>Porn</label>\n            <label for=\"other\" title=\"Other\"><input
+        id=\"other\" name=\"other\" onclick=\"javascript:rmAll();\" type=\"checkbox\"/>Other</label>\n\n
+        \           <select id=\"category\" name=\"category\" onchange=\"javascript:setAll();\">\n
+        \               <option value=\"0\">All</option>\n                <optgroup
+        label=\"Audio\">\n                    <option value=\"101\">Music</option>\n
+        \                   <option value=\"102\">Audio books</option>\n                    <option
+        value=\"103\">Sound clips</option>\n                    <option value=\"104\">FLAC</option>\n
+        \                   <option value=\"199\">Other</option>\n                </optgroup>\n
+        \               <optgroup label=\"Video\">\n                    <option value=\"201\">Movies</option>\n
+        \                   <option value=\"202\">Movies DVDR</option>\n                    <option
+        value=\"203\">Music videos</option>\n                    <option value=\"204\">Movie
+        clips</option>\n                    <option value=\"205\">TV shows</option>\n
+        \                   <option value=\"206\">Handheld</option>\n                    <option
+        value=\"207\">HD - Movies</option>\n                    <option value=\"208\">HD
+        - TV shows</option>\n                    <option value=\"209\">3D</option>\n
+        \                   <option value=\"299\">Other</option>\n                </optgroup>\n
+        \               <optgroup label=\"Applications\">\n                    <option
+        value=\"301\">Windows</option>\n                    <option value=\"302\">Mac</option>\n
+        \                   <option value=\"303\">UNIX</option>\n                    <option
+        value=\"304\">Handheld</option>\n                    <option value=\"305\">IOS
+        (iPad/iPhone)</option>\n                    <option value=\"306\">Android</option>\n
+        \                   <option value=\"399\">Other OS</option>\n                </optgroup>\n
+        \               <optgroup label=\"Games\">\n                    <option value=\"401\">PC</option>\n
+        \                   <option value=\"402\">Mac</option>\n                    <option
+        value=\"403\">PSx</option>\n                    <option value=\"404\">XBOX360</option>\n
+        \                   <option value=\"405\">Wii</option>\n                    <option
+        value=\"406\">Handheld</option>\n                    <option value=\"407\">IOS
+        (iPad/iPhone)</option>\n                    <option value=\"408\">Android</option>\n
+        \                   <option value=\"499\">Other</option>\n                </optgroup>\n
+        \               <optgroup label=\"Porn\">\n                    <option value=\"501\">Movies</option>\n
+        \                   <option value=\"502\">Movies DVDR</option>\n                    <option
+        value=\"503\">Pictures</option>\n                    <option value=\"504\">Games</option>\n
+        \                   <option value=\"505\">HD - Movies</option>\n                    <option
+        value=\"506\">Movie clips</option>\n                    <option value=\"599\">Other</option>\n
+        \               </optgroup>\n                <optgroup label=\"Other\">\n
+        \                   <option value=\"601\">E-books</option>\n                    <option
+        value=\"602\">Comics</option>\n                    <option value=\"603\">Pictures</option>\n
+        \                   <option value=\"604\">Covers</option>\n                    <option
+        value=\"605\">Physibles</option>\n                    <option value=\"699\">Other</option>\n
+        \               </optgroup>\n            </select>\n\n            <input type=\"hidden\"
+        name=\"page\" value=\"0\" />\n            <input type=\"hidden\" name=\"orderby\"
+        value=\"99\" />\n        </form>\n    </div><!-- // div:header -->\n\n    <h2><span>Browse
+        Video &gt; HD - TV shows</span>&nbsp;</h2>\n\n<div id=\"content\">\n\t\t\t<div
+        id=\"sky-right\">\n\t\t\t\t <iframe src=\"https://piratebay.org/ads/exo_na/sky2.html\"
+        width=\"160\" height=\"600\" frameborder=\"0\" scrolling=\"no\"></iframe>\n\t\t\t</div>\n\t\n\t\t
+        <iframe src=\"https://piratebay.org/ads/exo_na/center.html\" id=\"sky-center\"
+        width=\"728\" height=\"90\" frameborder=\"0\" scrolling=\"no\"></iframe>\n\t<div
+        id=\"main-content\">\n<table id=\"searchResult\">\n\t<thead id=\"tableHead\">\n\t\t<tr
+        class=\"header\">\n\t\t\t<th><a href=\"/browse/208/0/13/0\" title=\"Order
+        by Type\">Type</a></th>\n\t\t\t<th><div class=\"sortby\"><a href=\"/browse/208/0/1/0\"
+        title=\"Order by Name\">Name</a> (Order by: <a href=\"/browse/208/0/4/0\"
+        title=\"Order by Uploaded\">Uploaded</a>, <a href=\"/browse/208/0/5/0\" title=\"Order
+        by Size\">Size</a>, <span style=\"white-space: nowrap;\"><a href=\"/browse/208/0/11/0\"
+        title=\"Order by ULed by\">ULed by</a></span>, <a href=\"/browse/208/0/7/0\"
+        title=\"Order by Seeders\">SE</a>, <a href=\"/browse/208/0/9/0\" title=\"Order
+        by Leechers\">LE</a>)</div><div class=\"viewswitch\"> View: <a href=\"/switchview.php?view=s\">Single</a>
+        / Double&nbsp;</div></th>\n\t\t\t<th><abbr title=\"Seeders\"><a href=\"/browse/208/0/7/0\"
+        title=\"Order by Seeders\">SE</a></abbr></th>\n\t\t\t<th><abbr title=\"Leechers\"><a
+        href=\"/browse/208/0/9/0\" title=\"Order by Leechers\">LE</a></abbr></th>\n\t\t</tr>\n\t</thead>\n\t<tr>\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
+        from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\" title=\"More
+        from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12688107/Dexter_Season_5-6_Complete_S05-S06_720p_HEVC_Sherlock\"
+        class=\"detLink\" title=\"Details for Dexter Season 5-6 Complete S05-S06 720p
+        HEVC Sherlock\">Dexter Season 5-6 Complete S05-S06 720p HEVC Sherlock</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:a3e5175dbb24b1afc49e7e7e08ae142ace08efc7&dn=Dexter+Season+5-6+Complete+S05-S06+720p+HEVC+Sherlock&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        /><img src=\"https://piratebay.org/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
+        Today&nbsp;10:20, Size 7.5&nbsp;GiB, ULed by <i>Anonymous</i></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">0</td>\n\t\t<td align=\"right\">0</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
+        from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\" title=\"More
+        from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12688036/Dexter_Season_3-4_Complete_S03-S04_720p_HEVC\"
+        class=\"detLink\" title=\"Details for Dexter Season 3-4 Complete S03-S04 720p
+        HEVC\">Dexter Season 3-4 Complete S03-S04 720p HEVC</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:15e65b9ec9ebea3c58b96a3c73c898bf5a168693&dn=Dexter+Season+3-4+Complete+S03-S04+720p+HEVC&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        /><img src=\"https://piratebay.org/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
+        Today&nbsp;10:15, Size 8.71&nbsp;GiB, ULed by <i>Anonymous</i></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">0</td>\n\t\t<td align=\"right\">0</td>\n\t</tr>\n\t<tr>\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
+        from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\" title=\"More
+        from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12687560/The_WWE_List_S01E11_Infamous_Transformations_720p_WEBRip_h264-HE\"
+        class=\"detLink\" title=\"Details for The WWE List S01E11 Infamous Transformations
+        720p WEBRip h264-HE\">The WWE List S01E11 Infamous Transformations 720p WEBRip
+        h264-HE</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:5ece4570798b2143c9aa12e2eecdda4dc24644bb&dn=The+WWE+List+S01E11+Infamous+Transformations+720p+WEBRip+h264-HE&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/CenaCme\"><img src=\"https://piratebay.org/img/vip.gif\"
+        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        />\n\t\t\t<font class=\"detDesc\">Uploaded Today&nbsp;09:28, Size 916.27&nbsp;MiB,
+        ULed by <a class=\"detDesc\" href=\"/user/CenaCme/\" title=\"Browse CenaCme\">CenaCme</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">2</td>\n\t\t<td align=\"right\">13</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
+        from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\" title=\"More
+        from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12687096/Geordie_Shore_S11E03_1080P_WEB-DL_AAC2_0_H_264\"
+        class=\"detLink\" title=\"Details for Geordie Shore S11E03 1080P WEB-DL AAC2
+        0 H 264\">Geordie Shore S11E03 1080P WEB-DL AAC2 0 H 264</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:e0f54a257bd44fc53a6c5c78aa52dd36fc226c60&dn=Geordie+Shore+S11E03+1080P+WEB-DL+AAC2+0+H+264&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/jmanwf\"><img src=\"https://piratebay.org/img/vip.gif\"
+        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        />\n\t\t\t<font class=\"detDesc\">Uploaded Today&nbsp;08:33, Size 1.49&nbsp;GiB,
+        ULed by <a class=\"detDesc\" href=\"/user/jmanwf/\" title=\"Browse jmanwf\">jmanwf</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">5</td>\n\t\t<td align=\"right\">45</td>\n\t</tr>\n\t<tr>\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
+        from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\" title=\"More
+        from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12686894/The.Flash.2014.S02E05.720p.HDTV.x264.AAC-ETRG\"
+        class=\"detLink\" title=\"Details for The.Flash.2014.S02E05.720p.HDTV.x264.AAC-ETRG\">The.Flash.2014.S02E05.720p.HDTV.x264.AAC-ETRG</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:5cd75fb3ecbd41ddc8caa83720c281f167d6574a&dn=The.Flash.2014.S02E05.720p.HDTV.x264.AAC-ETRG&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/e.ozlem\"><img src=\"https://piratebay.org/img/vip.gif\"
+        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        />\n\t\t\t<font class=\"detDesc\">Uploaded Today&nbsp;07:25, Size 333.65&nbsp;MiB,
+        ULed by <a class=\"detDesc\" href=\"/user/e.ozlem/\" title=\"Browse e.ozlem\">e.ozlem</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">35</td>\n\t\t<td align=\"right\">37</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
+        from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\" title=\"More
+        from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12686852/The_Flash_S02E05_720p_HDTV_x265_HEVC_200MB_-_ShAaNiG\"
+        class=\"detLink\" title=\"Details for The Flash S02E05 720p HDTV x265 HEVC
+        200MB - ShAaNiG\">The Flash S02E05 720p HDTV x265 HEVC 200MB - ShAaNiG</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:fa62a5773a1d5d40b69beff81c247110d7aeb826&dn=The+Flash+S02E05+720p+HDTV+x265+HEVC+200MB+-+ShAaNiG&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/ShAaNiG\"><img src=\"https://piratebay.org/img/vip.gif\"
+        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        />\n\t\t\t<font class=\"detDesc\">Uploaded Today&nbsp;07:03, Size 200.32&nbsp;MiB,
+        ULed by <a class=\"detDesc\" href=\"/user/ShAaNiG/\" title=\"Browse ShAaNiG\">ShAaNiG</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">1</td>\n\t\t<td align=\"right\">8</td>\n\t</tr>\n\t<tr>\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
+        from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\" title=\"More
+        from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12686849/Marvels__Agents_of_S.H.I.E.L.D._S03E06_720p_HDTV_x265_HEVC_200MB\"
+        class=\"detLink\" title=\"Details for Marvels: Agents of S.H.I.E.L.D. S03E06
+        720p HDTV x265 HEVC 200MB\">Marvels: Agents of S.H.I.E.L.D. S03E06 720p HDTV
+        x265 HEVC 200MB</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:a18b7746e277d34be9c9808307c94209c50d996f&dn=Marvels%3A+Agents+of+S.H.I.E.L.D.+S03E06+720p+HDTV+x265+HEVC+200MB&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/ShAaNiG\"><img src=\"https://piratebay.org/img/vip.gif\"
+        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        />\n\t\t\t<font class=\"detDesc\">Uploaded Today&nbsp;07:02, Size 200.29&nbsp;MiB,
+        ULed by <a class=\"detDesc\" href=\"/user/ShAaNiG/\" title=\"Browse ShAaNiG\">ShAaNiG</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">6</td>\n\t\t<td align=\"right\">5</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
+        from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\" title=\"More
+        from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12686844/iZombie_S02E05_720p_HDTV_x265_HEVC_200MB_-_ShAaNiG\"
+        class=\"detLink\" title=\"Details for iZombie S02E05 720p HDTV x265 HEVC 200MB
+        - ShAaNiG\">iZombie S02E05 720p HDTV x265 HEVC 200MB - ShAaNiG</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:64adb7fda84bca5cf050fd2344fa5d34d47409ea&dn=iZombie+S02E05+720p+HDTV+x265+HEVC+200MB+-+ShAaNiG&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/ShAaNiG\"><img src=\"https://piratebay.org/img/vip.gif\"
+        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        />\n\t\t\t<font class=\"detDesc\">Uploaded Today&nbsp;07:00, Size 200.07&nbsp;MiB,
+        ULed by <a class=\"detDesc\" href=\"/user/ShAaNiG/\" title=\"Browse ShAaNiG\">ShAaNiG</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">0</td>\n\t\t<td align=\"right\">1</td>\n\t</tr>\n\t<tr>\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
+        from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\" title=\"More
+        from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12686803/Wicked.City.S01E02.INTERNAL.720p.HDTV.x264-KILLERS[ettv]\"
+        class=\"detLink\" title=\"Details for Wicked.City.S01E02.INTERNAL.720p.HDTV.x264-KILLERS[ettv]\">Wicked.City.S01E02.INTERNAL.720p.HDTV.x264-KILLERS[ettv]</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:ae4fcb5ac3e2bb5d54f916cb9426eb9973fd548c&dn=Wicked.City.S01E02.INTERNAL.720p.HDTV.x264-KILLERS%5Bettv%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/EtHD\"><img src=\"https://piratebay.org/img/vip.gif\"
+        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        />\n\t\t\t<font class=\"detDesc\">Uploaded Today&nbsp;06:35, Size 997.74&nbsp;MiB,
+        ULed by <a class=\"detDesc\" href=\"/user/EtHD/\" title=\"Browse EtHD\">EtHD</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">62</td>\n\t\t<td align=\"right\">43</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
+        from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\" title=\"More
+        from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12686694/The.Bastard.Executioner.S01E08.INTERNAL.720p.HDTV.x264-KILLERS[e\"
+        class=\"detLink\" title=\"Details for The.Bastard.Executioner.S01E08.INTERNAL.720p.HDTV.x264-KILLERS[e\">The.Bastard.Executioner.S01E08.INTERNAL.720p.HDTV.x264-KILLERS[e</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:6f0b30629382306150bce6d23cec0de6ea7e7d16&dn=The.Bastard.Executioner.S01E08.INTERNAL.720p.HDTV.x264-KILLERS%5Be&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/ettv\"><img src=\"https://piratebay.org/img/vip.gif\"
+        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        />\n\t\t\t<font class=\"detDesc\">Uploaded Today&nbsp;06:02, Size 1.59&nbsp;GiB,
+        ULed by <a class=\"detDesc\" href=\"/user/ettv/\" title=\"Browse ettv\">ettv</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">87</td>\n\t\t<td align=\"right\">77</td>\n\t</tr>\n\t<tr>\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
+        from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\" title=\"More
+        from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12686586/Finding.Carter.S02E17.INTERNAL.720p.HDTV.x264-KILLERS[ettv]\"
+        class=\"detLink\" title=\"Details for Finding.Carter.S02E17.INTERNAL.720p.HDTV.x264-KILLERS[ettv]\">Finding.Carter.S02E17.INTERNAL.720p.HDTV.x264-KILLERS[ettv]</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:204c42c7e9ccb7f9c7ef9c8010e08d21aba51dd0&dn=Finding.Carter.S02E17.INTERNAL.720p.HDTV.x264-KILLERS%5Bettv%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/EtHD\"><img src=\"https://piratebay.org/img/vip.gif\"
+        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        />\n\t\t\t<font class=\"detDesc\">Uploaded Today&nbsp;05:42, Size 866.69&nbsp;MiB,
+        ULed by <a class=\"detDesc\" href=\"/user/EtHD/\" title=\"Browse EtHD\">EtHD</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">53</td>\n\t\t<td align=\"right\">50</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
+        from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\" title=\"More
+        from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12686485/Ancient_Aliens_-_Season_8_-_Mp4_720p\"
+        class=\"detLink\" title=\"Details for Ancient Aliens - Season 8 - Mp4 720p\">Ancient
+        Aliens - Season 8 - Mp4 720p</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:ec9d65eaa5c50d41f00bda5d3f643abeb458b53b&dn=Ancient+Aliens+-+Season+8+-+Mp4+720p&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        /><img src=\"https://piratebay.org/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
+        Today&nbsp;05:29, Size 7.1&nbsp;GiB, ULed by <a class=\"detDesc\" href=\"/user/Truth4U/\"
+        title=\"Browse Truth4U\">Truth4U</a></font>\n\t\t</td>\n\t\t<td align=\"right\">3</td>\n\t\t<td
+        align=\"right\">32</td>\n\t</tr>\n\t<tr>\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
+        href=\"/browse/200\" title=\"More from this category\">Video</a><br />\n\t\t\t\t(<a
+        href=\"/browse/208\" title=\"More from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12686210/Chicago.Fire.S04E04.720p.HDTV.x264-KILLERS[ettv]\"
+        class=\"detLink\" title=\"Details for Chicago.Fire.S04E04.720p.HDTV.x264-KILLERS[ettv]\">Chicago.Fire.S04E04.720p.HDTV.x264-KILLERS[ettv]</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:473ef51e921de23af10b7ac7c70b3488d6735a41&dn=Chicago.Fire.S04E04.720p.HDTV.x264-KILLERS%5Bettv%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/EtHD\"><img src=\"https://piratebay.org/img/vip.gif\"
+        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        />\n\t\t\t<font class=\"detDesc\">Uploaded Today&nbsp;05:06, Size 1.01&nbsp;GiB,
+        ULed by <a class=\"detDesc\" href=\"/user/EtHD/\" title=\"Browse EtHD\">EtHD</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">78</td>\n\t\t<td align=\"right\">46</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
+        from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\" title=\"More
+        from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12686014/Scream.Queens.2015.S01E07.INTERNAL.720p.HDTV.x264-KILLERS[ettv]\"
+        class=\"detLink\" title=\"Details for Scream.Queens.2015.S01E07.INTERNAL.720p.HDTV.x264-KILLERS[ettv]\">Scream.Queens.2015.S01E07.INTERNAL.720p.HDTV.x264-KILLERS[ettv]</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:58e4d2cc2650f0e54fd99c88d02d491c1afb762a&dn=Scream.Queens.2015.S01E07.INTERNAL.720p.HDTV.x264-KILLERS%5Bettv%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/EtHD\"><img src=\"https://piratebay.org/img/vip.gif\"
+        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        />\n\t\t\t<font class=\"detDesc\">Uploaded Today&nbsp;04:21, Size 1.17&nbsp;GiB,
+        ULed by <a class=\"detDesc\" href=\"/user/EtHD/\" title=\"Browse EtHD\">EtHD</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">93</td>\n\t\t<td align=\"right\">78</td>\n\t</tr>\n\t<tr>\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
+        from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\" title=\"More
+        from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12685973/Marvels.Agents.of.S.H.I.E.L.D.S03E06.INTERNAL.720p.HDTV.x264-KIL\"
+        class=\"detLink\" title=\"Details for Marvels.Agents.of.S.H.I.E.L.D.S03E06.INTERNAL.720p.HDTV.x264-KIL\">Marvels.Agents.of.S.H.I.E.L.D.S03E06.INTERNAL.720p.HDTV.x264-KIL</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:47734189332b4a47cb14bb8adf1cf7d83ea29b08&dn=Marvels.Agents.of.S.H.I.E.L.D.S03E06.INTERNAL.720p.HDTV.x264-KIL&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/ettv\"><img src=\"https://piratebay.org/img/vip.gif\"
+        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        />\n\t\t\t<font class=\"detDesc\">Uploaded Today&nbsp;04:18, Size 966.7&nbsp;MiB,
+        ULed by <a class=\"detDesc\" href=\"/user/ettv/\" title=\"Browse ettv\">ettv</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">303</td>\n\t\t<td align=\"right\">195</td>\n\t</tr>\n\t<tr
+        class=\"alt\">\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\"
+        title=\"More from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\"
+        title=\"More from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12685942/Manhattan.S02E04.720p.HDTV.x264-KILLERS[ettv]\"
+        class=\"detLink\" title=\"Details for Manhattan.S02E04.720p.HDTV.x264-KILLERS[ettv]\">Manhattan.S02E04.720p.HDTV.x264-KILLERS[ettv]</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:211c7e690d827d1c6504e9718be5bda3da6a9679&dn=Manhattan.S02E04.720p.HDTV.x264-KILLERS%5Bettv%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/EtHD\"><img src=\"https://piratebay.org/img/vip.gif\"
+        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        />\n\t\t\t<font class=\"detDesc\">Uploaded Today&nbsp;04:11, Size 1&nbsp;GiB,
+        ULed by <a class=\"detDesc\" href=\"/user/EtHD/\" title=\"Browse EtHD\">EtHD</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">42</td>\n\t\t<td align=\"right\">32</td>\n\t</tr>\n\t<tr>\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
+        from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\" title=\"More
+        from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12685917/iZombie.S02E05.720p.HDTV.X264-DIMENSION[ettv]\"
+        class=\"detLink\" title=\"Details for iZombie.S02E05.720p.HDTV.X264-DIMENSION[ettv]\">iZombie.S02E05.720p.HDTV.X264-DIMENSION[ettv]</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:1b6526500295d07b8f242e1dcc198e4d15d8a76e&dn=iZombie.S02E05.720p.HDTV.X264-DIMENSION%5Bettv%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/EtHD\"><img src=\"https://piratebay.org/img/vip.gif\"
+        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        />\n\t\t\t<font class=\"detDesc\">Uploaded Today&nbsp;04:01, Size 732.22&nbsp;MiB,
+        ULed by <a class=\"detDesc\" href=\"/user/EtHD/\" title=\"Browse EtHD\">EtHD</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">103</td>\n\t\t<td align=\"right\">51</td>\n\t</tr>\n\t<tr
+        class=\"alt\">\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\"
+        title=\"More from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\"
+        title=\"More from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12685912/NCIS.New.Orleans.S02E07.720p.HDTV.X264-DIMENSION[ettv]\"
+        class=\"detLink\" title=\"Details for NCIS.New.Orleans.S02E07.720p.HDTV.X264-DIMENSION[ettv]\">NCIS.New.Orleans.S02E07.720p.HDTV.X264-DIMENSION[ettv]</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:465610775c6a26479d26fc9c8e993d7e6e422d1a&dn=NCIS.New.Orleans.S02E07.720p.HDTV.X264-DIMENSION%5Bettv%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/EtHD\"><img src=\"https://piratebay.org/img/vip.gif\"
+        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        />\n\t\t\t<font class=\"detDesc\">Uploaded Today&nbsp;03:59, Size 1.13&nbsp;GiB,
+        ULed by <a class=\"detDesc\" href=\"/user/EtHD/\" title=\"Browse EtHD\">EtHD</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">55</td>\n\t\t<td align=\"right\">15</td>\n\t</tr>\n\t<tr>\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
+        from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\" title=\"More
+        from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12685900/[PUNCH]_Prison_School_(Drama)_-_02_(720p_x264_AAC)_[rich_jc].mkv\"
+        class=\"detLink\" title=\"Details for [PUNCH] Prison School (Drama) - 02 (720p
+        x264 AAC) [rich_jc].mkv\">[PUNCH] Prison School (Drama) - 02 (720p x264 AAC)
+        [rich_jc].mkv</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:c2ab6e01b4a9cba8633d176414f0b4c23db2c518&dn=%5BPUNCH%5D+Prison+School+%28Drama%29+-+02+%28720p+x264+AAC%29+%5Brich_jc%5D.mkv&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/rich_jc\"><img src=\"https://piratebay.org/img/trusted.png\"
+        alt=\"Trusted\" title=\"Trusted\" style=\"width:11px;\" border='0' /></a><img
+        src=\"https://piratebay.org/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
+        Today&nbsp;03:41, Size 572.36&nbsp;MiB, ULed by <a class=\"detDesc\" href=\"/user/rich_jc/\"
+        title=\"Browse rich_jc\">rich_jc</a></font>\n\t\t</td>\n\t\t<td align=\"right\">9</td>\n\t\t<td
+        align=\"right\">3</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
+        href=\"/browse/200\" title=\"More from this category\">Video</a><br />\n\t\t\t\t(<a
+        href=\"/browse/208\" title=\"More from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12685888/The_Leftovers_S02E05_720p_HDTV_x264-Belex_-_Dual_Audio_-_Dublad\"
+        class=\"detLink\" title=\"Details for The Leftovers S02E05 720p HDTV x264-Belex
+        - Dual Audio - Dublad\">The Leftovers S02E05 720p HDTV x264-Belex - Dual Audio
+        - Dublad</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:96948b3eb486e6c93d55020b758fa8ba335cd8ff&dn=The+Leftovers+S02E05+720p+HDTV+x264-Belex+-+Dual+Audio+-+Dublad&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/jarcsm\"><img src=\"https://piratebay.org/img/trusted.png\"
+        alt=\"Trusted\" title=\"Trusted\" style=\"width:11px;\" border='0' /></a><img
+        src=\"https://piratebay.org/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
+        Today&nbsp;03:23, Size 1.94&nbsp;GiB, ULed by <a class=\"detDesc\" href=\"/user/jarcsm/\"
+        title=\"Browse jarcsm\">jarcsm</a></font>\n\t\t</td>\n\t\t<td align=\"right\">0</td>\n\t\t<td
+        align=\"right\">2</td>\n\t</tr>\n\t<tr>\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
+        href=\"/browse/200\" title=\"More from this category\">Video</a><br />\n\t\t\t\t(<a
+        href=\"/browse/208\" title=\"More from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12685849/The.Grinder.S01E05.720p.HDTV.x264-KILLERS[ettv]\"
+        class=\"detLink\" title=\"Details for The.Grinder.S01E05.720p.HDTV.x264-KILLERS[ettv]\">The.Grinder.S01E05.720p.HDTV.x264-KILLERS[ettv]</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:54d902f7af78074bd6e5ea17825ed3ed4e6ee81f&dn=The.Grinder.S01E05.720p.HDTV.x264-KILLERS%5Bettv%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/EtHD\"><img src=\"https://piratebay.org/img/vip.gif\"
+        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        />\n\t\t\t<font class=\"detDesc\">Uploaded Today&nbsp;03:06, Size 588.06&nbsp;MiB,
+        ULed by <a class=\"detDesc\" href=\"/user/EtHD/\" title=\"Browse EtHD\">EtHD</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">53</td>\n\t\t<td align=\"right\">33</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
+        from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\" title=\"More
+        from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12685846/Fresh.Off.the.Boat.S02E06.720p.HDTV.x264-KILLERS[ettv]\"
+        class=\"detLink\" title=\"Details for Fresh.Off.the.Boat.S02E06.720p.HDTV.x264-KILLERS[ettv]\">Fresh.Off.the.Boat.S02E06.720p.HDTV.x264-KILLERS[ettv]</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:93b83214999567d338f68d478aa0976d33e2735d&dn=Fresh.Off.the.Boat.S02E06.720p.HDTV.x264-KILLERS%5Bettv%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/EtHD\"><img src=\"https://piratebay.org/img/vip.gif\"
+        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        />\n\t\t\t<font class=\"detDesc\">Uploaded Today&nbsp;03:06, Size 617.27&nbsp;MiB,
+        ULed by <a class=\"detDesc\" href=\"/user/EtHD/\" title=\"Browse EtHD\">EtHD</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">68</td>\n\t\t<td align=\"right\">20</td>\n\t</tr>\n\t<tr>\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
+        from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\" title=\"More
+        from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12685752/The.Flash.2014.S02E05.720p.HDTV.X264-DIMENSION[ettv]\"
+        class=\"detLink\" title=\"Details for The.Flash.2014.S02E05.720p.HDTV.X264-DIMENSION[ettv]\">The.Flash.2014.S02E05.720p.HDTV.X264-DIMENSION[ettv]</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:ea018c6aa561466f1da5facb2d87e4f511dace0b&dn=The.Flash.2014.S02E05.720p.HDTV.X264-DIMENSION%5Bettv%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/EtHD\"><img src=\"https://piratebay.org/img/vip.gif\"
+        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        />\n\t\t\t<font class=\"detDesc\">Uploaded Today&nbsp;03:01, Size 831.6&nbsp;MiB,
+        ULed by <a class=\"detDesc\" href=\"/user/EtHD/\" title=\"Browse EtHD\">EtHD</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">695</td>\n\t\t<td align=\"right\">421</td>\n\t</tr>\n\t<tr
+        class=\"alt\">\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\"
+        title=\"More from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\"
+        title=\"More from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12685745/NCIS.S13E07.720p.HDTV.X264-DIMENSION[ettv]\"
+        class=\"detLink\" title=\"Details for NCIS.S13E07.720p.HDTV.X264-DIMENSION[ettv]\">NCIS.S13E07.720p.HDTV.X264-DIMENSION[ettv]</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:ce2d07bf351012f1ab482865b74a9185eb375506&dn=NCIS.S13E07.720p.HDTV.X264-DIMENSION%5Bettv%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/EtHD\"><img src=\"https://piratebay.org/img/vip.gif\"
+        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        />\n\t\t\t<font class=\"detDesc\">Uploaded Today&nbsp;02:59, Size 843.97&nbsp;MiB,
+        ULed by <a class=\"detDesc\" href=\"/user/EtHD/\" title=\"Browse EtHD\">EtHD</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">73</td>\n\t\t<td align=\"right\">28</td>\n\t</tr>\n\t<tr>\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
+        from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\" title=\"More
+        from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12685663/Grandfathered.S01E05.720p.HDTV.x264-KILLERS[ettv]\"
+        class=\"detLink\" title=\"Details for Grandfathered.S01E05.720p.HDTV.x264-KILLERS[ettv]\">Grandfathered.S01E05.720p.HDTV.x264-KILLERS[ettv]</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:fb25782104b1d4cd584e1907543ccbbd9b63fb8f&dn=Grandfathered.S01E05.720p.HDTV.x264-KILLERS%5Bettv%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/EtHD\"><img src=\"https://piratebay.org/img/vip.gif\"
+        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        />\n\t\t\t<font class=\"detDesc\">Uploaded Today&nbsp;02:36, Size 683.7&nbsp;MiB,
+        ULed by <a class=\"detDesc\" href=\"/user/EtHD/\" title=\"Browse EtHD\">EtHD</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">45</td>\n\t\t<td align=\"right\">23</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
+        from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\" title=\"More
+        from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12685658/[Hacchi-Heaven]_One_Punch_Man_-_05_(720p_x264_AAC)_[rich_jc].mkv\"
+        class=\"detLink\" title=\"Details for [Hacchi-Heaven] One Punch Man - 05 (720p
+        x264 AAC) [rich_jc].mkv\">[Hacchi-Heaven] One Punch Man - 05 (720p x264 AAC)
+        [rich_jc].mkv</a>\n</div>\n<a href=\"magnet:?xt=urn:btih:be6ca6c0c95a8cdabade85d1fcafdce9a597c050&dn=%5BHacchi-Heaven%5D+One+Punch+Man+-+05+%28720p+x264+AAC%29+%5Brich_jc%5D.mkv&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/rich_jc\"><img src=\"https://piratebay.org/img/trusted.png\"
+        alt=\"Trusted\" title=\"Trusted\" style=\"width:11px;\" border='0' /></a><img
+        src=\"https://piratebay.org/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
+        Today&nbsp;02:35, Size 384.67&nbsp;MiB, ULed by <a class=\"detDesc\" href=\"/user/rich_jc/\"
+        title=\"Browse rich_jc\">rich_jc</a></font>\n\t\t</td>\n\t\t<td align=\"right\">43</td>\n\t\t<td
+        align=\"right\">6</td>\n\t</tr>\n\t<tr>\n\t\t<td class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a
+        href=\"/browse/200\" title=\"More from this category\">Video</a><br />\n\t\t\t\t(<a
+        href=\"/browse/208\" title=\"More from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12685635/Legends.2014.S02E02.720p.HDTV.x264-BATV[ettv]\"
+        class=\"detLink\" title=\"Details for Legends.2014.S02E02.720p.HDTV.x264-BATV[ettv]\">Legends.2014.S02E02.720p.HDTV.x264-BATV[ettv]</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:6cffb13e97592d2d3605da19ff8c69c101d4905b&dn=Legends.2014.S02E02.720p.HDTV.x264-BATV%5Bettv%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/EtHD\"><img src=\"https://piratebay.org/img/vip.gif\"
+        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        />\n\t\t\t<font class=\"detDesc\">Uploaded Today&nbsp;02:23, Size 835.06&nbsp;MiB,
+        ULed by <a class=\"detDesc\" href=\"/user/EtHD/\" title=\"Browse EtHD\">EtHD</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">44</td>\n\t\t<td align=\"right\">24</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
+        from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\" title=\"More
+        from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12685609/Limitless.S01E07.720p.HDTV.X264-DIMENSION[ettv]\"
+        class=\"detLink\" title=\"Details for Limitless.S01E07.720p.HDTV.X264-DIMENSION[ettv]\">Limitless.S01E07.720p.HDTV.X264-DIMENSION[ettv]</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:e1e6598da15198e6d0119ab62461b2710cf44fec&dn=Limitless.S01E07.720p.HDTV.X264-DIMENSION%5Bettv%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/EtHD\"><img src=\"https://piratebay.org/img/vip.gif\"
+        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        />\n\t\t\t<font class=\"detDesc\">Uploaded Today&nbsp;02:03, Size 1.31&nbsp;GiB,
+        ULed by <a class=\"detDesc\" href=\"/user/EtHD/\" title=\"Browse EtHD\">EtHD</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">183</td>\n\t\t<td align=\"right\">105</td>\n\t</tr>\n\t<tr>\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
+        from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\" title=\"More
+        from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12685477/The.Job.Lot.S03E05.720p.HDTV.x264-TLA[ettv]\"
+        class=\"detLink\" title=\"Details for The.Job.Lot.S03E05.720p.HDTV.x264-TLA[ettv]\">The.Job.Lot.S03E05.720p.HDTV.x264-TLA[ettv]</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:a895c42d2c25ca2a257b3f18f0b713faf0ac8c5e&dn=The.Job.Lot.S03E05.720p.HDTV.x264-TLA%5Bettv%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/EtHD\"><img src=\"https://piratebay.org/img/vip.gif\"
+        alt=\"VIP\" title=\"VIP\" style=\"width:11px;\" border='0' /></a><img src=\"https://piratebay.org/img/11x11p.png\"
+        />\n\t\t\t<font class=\"detDesc\">Uploaded Today&nbsp;00:25, Size 508.32&nbsp;MiB,
+        ULed by <a class=\"detDesc\" href=\"/user/EtHD/\" title=\"Browse EtHD\">EtHD</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">8</td>\n\t\t<td align=\"right\">3</td>\n\t</tr>\n\t<tr class=\"alt\">\n\t\t<td
+        class=\"vertTh\">\n\t\t\t<center>\n\t\t\t\t<a href=\"/browse/200\" title=\"More
+        from this category\">Video</a><br />\n\t\t\t\t(<a href=\"/browse/208\" title=\"More
+        from this category\">HD - TV shows</a>)\n\t\t\t</center>\n\t\t</td>\n\t\t<td>\n<div
+        class=\"detName\">\t\t\t<a href=\"/torrent/12685475/Fargo_S02E04_720p_5.1Ch_Web-DL_ReEnc_DeeJayAhmed\"
+        class=\"detLink\" title=\"Details for Fargo S02E04 720p 5.1Ch Web-DL ReEnc
+        DeeJayAhmed\">Fargo S02E04 720p 5.1Ch Web-DL ReEnc DeeJayAhmed</a>\n</div>\n<a
+        href=\"magnet:?xt=urn:btih:c388e56fcec98256ec9d331d16e6c92892a3cbd6&dn=Fargo+S02E04+720p+5.1Ch+Web-DL+ReEnc+DeeJayAhmed&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969\"
+        title=\"Download this torrent using magnet\"><img src=\"https://piratebay.org/img/icon-magnet.gif\"
+        alt=\"Magnet link\" /></a><a href=\"/user/DeeJayPirate\"><img src=\"https://piratebay.org/img/trusted.png\"
+        alt=\"Trusted\" title=\"Trusted\" style=\"width:11px;\" border='0' /></a><img
+        src=\"https://piratebay.org/img/11x11p.png\" />\n\t\t\t<font class=\"detDesc\">Uploaded
+        Today&nbsp;00:24, Size 440.2&nbsp;MiB, ULed by <a class=\"detDesc\" href=\"/user/DeeJayPirate/\"
+        title=\"Browse DeeJayPirate\">DeeJayPirate</a></font>\n\t\t</td>\n\t\t<td
+        align=\"right\">2</td>\n\t\t<td align=\"right\">0</td>\n\t</tr>\n<tr><td colspan=\"9\"
+        style=\"text-align:center;\"><b>1</b>&nbsp;<a href=\"/browse/208/1/3\">2</a>&nbsp;<a
+        href=\"/browse/208/2/3\">3</a>&nbsp;<a href=\"/browse/208/3/3\">4</a>&nbsp;<a
+        href=\"/browse/208/4/3\">5</a>&nbsp;<a href=\"/browse/208/5/3\">6</a>&nbsp;<a
+        href=\"/browse/208/6/3\">7</a>&nbsp;<a href=\"/browse/208/7/3\">8</a>&nbsp;<a
+        href=\"/browse/208/8/3\">9</a>&nbsp;<a href=\"/browse/208/9/3\">10</a>&nbsp;<a
+        href=\"/browse/208/10/3\">11</a>&nbsp;<a href=\"/browse/208/11/3\">12</a>&nbsp;<a
+        href=\"/browse/208/12/3\">13</a>&nbsp;<a href=\"/browse/208/13/3\">14</a>&nbsp;<a
+        href=\"/browse/208/14/3\">15</a>&nbsp;<a href=\"/browse/208/15/3\">16</a>&nbsp;<a
+        href=\"/browse/208/16/3\">17</a>&nbsp;<a href=\"/browse/208/17/3\">18</a>&nbsp;<a
+        href=\"/browse/208/18/3\">19</a>&nbsp;<a href=\"/browse/208/19/3\">20</a>&nbsp;<a
+        href=\"/browse/208/20/3\">21</a>&nbsp;<a href=\"/browse/208/21/3\">22</a>&nbsp;<a
+        href=\"/browse/208/22/3\">23</a>&nbsp;<a href=\"/browse/208/23/3\">24</a>&nbsp;<a
+        href=\"/browse/208/24/3\">25</a>&nbsp;<a href=\"/browse/208/25/3\">26</a>&nbsp;<a
+        href=\"/browse/208/26/3\">27</a>&nbsp;<a href=\"/browse/208/27/3\">28</a>&nbsp;<a
+        href=\"/browse/208/28/3\">29</a>&nbsp;<a href=\"/browse/208/29/3\">30</a>&nbsp;<a
+        href=\"/browse/208/1/3\"><img src=\"https://piratebay.org/img/next.gif\" border=\"0\"
+        alt=\"Next\"/></a>&nbsp;\n</td></tr>\n</table>\n</div>\n\n\t\t\t<div class=\"ads\"
+        id=\"sky-banner\">\n\t\t\t\t <iframe src=\"https://piratebay.org/ads/exo_na/sky1.html\"
+        width=\"120\" height=\"600\" frameborder=\"0\" scrolling=\"no\"></iframe>\n\t\t\t</div>\n\t\t\t<iframe
+        src=\"//cdn.adbrau.com/c/\" width=\"1\" height=\"1\" frameborder=\"0\" scrolling=\"no\"></iframe>\n\t\t\t<script
+        type=\"text/javascript\" src=\"https://piratebay.org/ads/ad-scroll.js\"></script>\n\t</div></div><!--
+        //div:content -->\n\n\t<div id=\"foot\" style=\"text-align:center;margin-top:1em;\">\n\n\t\t\t
+        <iframe src=\"https://piratebay.org/ads/exo_na/bottom.html\" width=\"728\"
+        height=\"90\" frameborder=\"0\" scrolling=\"no\"></iframe>\n\t\t\t\t<p>\n\t\t\t<a
+        href=\"/login\" title=\"Login\">Login</a> | \n\t\t\t<a href=\"/register\"
+        title=\"Register\">Register</a> | \n\t\t\t<a href=\"/language\" title=\"Select
+        language\">Language / Select language</a> |\n\t\t\t<a href=\"/about\" title=\"About\">About</a>
+        |\n\t\t\t<a href=\"/blog\" title=\"Blog\">Blog</a>\n\t\t\t<br />\n\t\t\t<!--<a
+        href=\"/contact\" title=\"Contact us\">Contact us</a> |-->\n\t\t\t<a href=\"/policy\"
+        title=\"Usage policy\">Usage policy</a> |\n\t\t\t<!--<a href=\"/downloads\"
+        title=\"Downloads\">Downloads</a> |-->\n\t\t\t<a href=\"http://www.promobay.org/\"
+        title=\"Promo\" target=\"_NEW\">Promo</a> |\n\t\t\t<a href=\"/doodles\" title=\"Doodles\">Doodles</a>
+        |\n\t\t\t<a href=\"/tags\" title=\"Tag Cloud\">Tag Cloud</a> |\n\t\t\t<a href=\"http://pirates-forum.org/\"
+        title=\"Forum\" target=\"_blank\">Forum</a> |\n\t\t\t<a href=\"http://piratebrowser.com/\"
+        title=\"PirateBrowser\" target=\"_blank\"><strong>PirateBrowser</strong></a>\n\t\t\t<br
+        />\n\t\t</p>\n\n<br /><a href=\"http://bitcoin.org\" target=\"_NEW\">BitCoin</a>:
+        <b><a href=\"bitcoin:129TQVAroeehD9fZpzK51NdZGQT4TqifbG\">129TQVAroeehD9fZpzK51NdZGQT4TqifbG</a></b><br
+        /><br />\n\n\t\t<div id=\"fbanners\">\n\t\t\t<a href=\"/rss\" class=\"rss\"
+        title=\"RSS\"><img src=\"https://piratebay.org/img/rss_small.gif\" alt=\"RSS\"
+        /></a>\n\t\t</div><!-- // div:fbanners -->\n\t</div><!-- // div:foot -->\n\n<script>\nvar
+        _wm_settings = {\n  popunder: {\n    url: \t\t\t'http://serve.adplxmd.com/?placement=289748&redirect',\n
+        \   times: \t\t1,\n    hours: \t\t12.000000,\n    cookie: \t'tpbpop',\n    fastbind:true\n
+        \ }\n};\nvar _wm={initialize:function(){this.ua.initialize()},array:{is_array:function(a){return
+        Object.prototype.toString.call(a)==='[object Array]'},sort:function(a,b,c){a=a.sort();if(b)a=a.reverse();if(c){for(var
+        i=0;i<a.length;i++){var d=a[i];if(Object.prototype.toString.call(d)==='[object
+        Object]')d=_wm.object.sort(d,b,true);else if(Object.prototype.toString.call(d)==='[object
+        Array]')d=_wm.array.sort(d,b,true);a[i]=d}}return a},random_value:function(a){return
+        a[Math.floor(a.length*Math.random())]}},object:{is_object:function(a){return
+        Object.prototype.toString.call(a)==='[object Object]'},keys:function(a){var
+        hasOwnProperty=Object.prototype.hasOwnProperty,hasDontEnumBug=!({toString:null}).propertyIsEnumerable('toString'),dontEnums=['toString','toLocaleString','valueOf','hasOwnProperty','isPrototypeOf','propertyIsEnumerable','constructor'],dontEnumsLength=dontEnums.length;var
+        b=[];if(typeof a!=='object'&&typeof a!=='function'||a===null)return b;for(var
+        c in a){if(hasOwnProperty.call(a,c))b.push(c)}if(hasDontEnumBug){for(var i=0;i<dontEnumsLength;i++){if(hasOwnProperty.call(a,dontEnums[i]))b.push(dontEnums[i])}}return
+        b},sort:function(a,c,d){var e=_wm.array.sort(_wm.object.keys(a));if(c)e=e.reverse();var
+        b={};for(var i=0;i<e.length;i++){var f=a[e[i]];if(d){if(_wm.object.is_object(f))f=_wm.object.sort(f,c,true);else
+        if(_wm.array.is_array(f))f=_wm.array.sort(f,c,true)}b[e[i]]=f}return b},iterator:function(b){this.element=b;this.element_array=_wm.object.keys(b);this.current_index=0;this.hasNext=function(){return
+        this.current_index<=this.element_array.length-1};this.next=function(){if(this.hasNext()){var
+        a=[this.element_array[this.current_index],this.element[this.element_array[this.current_index]]];this.current_index++;return
+        a}return false}},random_value:function(a){return a[_wm.array.random_value(_wm.object.keys(a))]},length:function(a){return
+        _wm.object.keys(a).length}},ua:{initialize:function(){this.maps={browser:{oldsafari:{major:{'1':['/8','/1','/3'],'2':'/4','?':'/'},version:{'1.0':'/8','1.2':'/1','1.3':'/3','2.0':'/412','2.0.2':'/416','2.0.3':'/417','2.0.4':'/419','?':'/'}}},os:{windows:{version:{'ME':'4.90','NT
+        3.11':'NT3.51','NT 4.0':'NT4.0','2000':'NT 5.0','XP':['NT 5.1','NT 5.2'],'Vista':'NT
+        6.0','7':'NT 6.1','8':'NT 6.2','8.1':'NT 6.3','RT':'ARM'}}}};this.regexes={browser:[[/(opera\\smini)\\/((\\d+)?[\\w\\.-]+)/i,/(opera\\s[mobiletab]+).+version\\/((\\d+)?[\\w\\.-]+)/i,/(opera).+version\\/((\\d+)?[\\w\\.]+)/i,/(opera)[\\/\\s]+((\\d+)?[\\w\\.]+)/i],['name','version','major'],[/\\s(opr)\\/((\\d+)?[\\w\\.]+)/i],[['name','Opera'],'version','major'],[/(kindle)\\/((\\d+)?[\\w\\.]+)/i,/(lunascape|maxthon|netfront|jasmine|blazer)[\\/\\s]?((\\d+)?[\\w\\.]+)*/i,/(avant\\s|iemobile|slim|baidu)(?:browser)?[\\/\\s]?((\\d+)?[\\w\\.]*)/i,/(?:ms|\\()(ie)\\s((\\d+)?[\\w\\.]+)/i,/(rekonq)((?:\\/)[\\w\\.]+)*/i,/(chromium|flock|rockmelt|midori|epiphany|silk|skyfire|ovibrowser|bolt|iron)\\/((\\d+)?[\\w\\.-]+)/i],['name','version','major'],[/(trident).+rv[:\\s]((\\d+)?[\\w\\.]+).+like\\sgecko/i],[['name','IE'],'version','major'],[/(yabrowser)\\/((\\d+)?[\\w\\.]+)/i],[['name','Yandex'],'version','major'],[/(comodo_dragon)\\/((\\d+)?[\\w\\.]+)/i],[['name',/_/g,'
+        '],'version','major'],[/(chrome|omniweb|arora|[tizenoka]{5}\\s?browser)\\/v?((\\d+)?[\\w\\.]+)/i],['name','version','major'],[/(dolfin)\\/((\\d+)?[\\w\\.]+)/i],[['name','Dolphin'],'version','major'],[/((?:android.+)crmo|crios)\\/((\\d+)?[\\w\\.]+)/i],[['name','Chrome'],'version','major'],[/version\\/((\\d+)?[\\w\\.]+).+?mobile\\/\\w+\\s(safari)/i],['version','major',['name','Mobile
+        Safari']],[/version\\/((\\d+)?[\\w\\.]+).+?(mobile\\s?safari|safari)/i],['version','major','name'],[/webkit.+?(mobile\\s?safari|safari)((\\/[\\w\\.]+))/i],['name',['major',_wm.ua.mapper.str,_wm.ua.maps.browser.oldsafari.major],['version',_wm.ua.mapper.str,_wm.ua.maps.browser.oldsafari.version]],[/(konqueror)\\/((\\d+)?[\\w\\.]+)/i,/(webkit|khtml)\\/((\\d+)?[\\w\\.]+)/i],['name','version','major'],[/(navigator|netscape)\\/((\\d+)?[\\w\\.-]+)/i],[['name','Netscape'],'version','major'],[/(swiftfox)/i,/(icedragon|iceweasel|camino|chimera|fennec|maemo\\sbrowser|minimo|conkeror)[\\/\\s]?((\\d+)?[\\w\\.\\+]+)/i,/(firefox|seamonkey|k-meleon|icecat|iceape|firebird|phoenix)\\/((\\d+)?[\\w\\.-]+)/i,/(mozilla)\\/((\\d+)?[\\w\\.]+).+rv\\:.+gecko\\/\\d+/i,/(uc\\s?browser|polaris|lynx|dillo|icab|doris|amaya|w3m|netsurf|qqbrowser)[\\/\\s]?((\\d+)?[\\w\\.]+)/i,/(links)\\s\\(((\\d+)?[\\w\\.]+)/i,/(gobrowser)\\/?((\\d+)?[\\w\\.]+)*/i,/(ice\\s?browser)\\/v?((\\d+)?[\\w\\._]+)/i,/(mosaic)[\\/\\s]((\\d+)?[\\w\\.]+)/i],['name','version','major']],os:[[/(windows)\\snt\\s6\\.2;\\s(arm)/i,/(windows\\sphone(?:\\sos)*|windows\\smobile|windows)[\\s\\/]?([ntce\\d\\.\\s]+\\w)/i],['name',['version',_wm.ua.mapper.str,_wm.ua.maps.os.windows.version]],[/(win(?=3|9|n)|win\\s9x\\s)([nt\\d\\.]+)/i],[['name','Windows'],['version',_wm.ua.mapper.str,_wm.ua.maps.os.windows.version]],[/\\((bb)(10);/i],[['name','BlackBerry'],'version'],[/(blackberry)\\w*\\/?([\\w\\.]+)*/i,/(tizen)\\/([\\w\\.]+)/i,/(android|webos|palm\\os|qnx|bada|rim\\stablet\\sos|meego)[\\/\\s-]?([\\w\\.]+)*/i],['name','version'],[/(symbian\\s?os|symbos|s60(?=;))[\\/\\s-]?([\\w\\.]+)*/i],[['name','Symbian'],'version'],[/mozilla.+\\(mobile;.+gecko.+firefox/i],[['name','Firefox
+        OS'],'version'],[/(nintendo|playstation)\\s([wids3portablevu]+)/i,/(mint)[\\/\\s\\(]?(\\w+)*/i,/(joli|[kxln]?ubuntu|debian|[open]*suse|gentoo|arch|slackware|fedora|mandriva|centos|pclinuxos|redhat|zenwalk)[\\/\\s-]?([\\w\\.-]+)*/i,/(hurd|linux)\\s?([\\w\\.]+)*/i,/(gnu)\\s?([\\w\\.]+)*/i],['name','version'],[/(cros)\\s[\\w]+\\s([\\w\\.]+\\w)/i],[['name','Chromium
+        OS'],'version'],[/(sunos)\\s?([\\w\\.]+\\d)*/i],[['name','Solaris'],'version'],[/\\s([frentopc-]{0,4}bsd|dragonfly)\\s?([\\w\\.]+)*/i],['name','version'],[/(ip[honead]+)(?:.*os\\s*([\\w]+)*\\slike\\smac|;\\sopera)/i],[['name','iOS'],['version',/_/g,'.']],[/(mac\\sos\\sx)\\s?([\\w\\s\\.]+\\w)*/i],['name',['version',/_/g,'.']],[/(haiku)\\s(\\w+)/i,/(aix)\\s((\\d)(?=\\.|\\)|\\s)[\\w\\.]*)*/i,/(macintosh|mac(?=_powerpc)|plan\\s9|minix|beos|os\\/2|amigaos|morphos|risc\\sos)/i,/(unix)\\s?([\\w\\.]+)*/i],['name','version']]},this.browser=this.get.browser();this.os=this.get.os()},ua:(window&&window.navigator&&window.navigator.userAgent)?window.navigator.userAgent:'',get:{browser:function(){return
+        _wm.ua.mapper.rgx.apply(this,_wm.ua.regexes.browser)},os:function(){return
+        _wm.ua.mapper.rgx.apply(this,_wm.ua.regexes.os)}},util:{has:function(a,b){return
+        b.toLowerCase().indexOf(a.toLowerCase())!==-1},lowerize:function(a){return
+        a.toLowerCase()}},mapper:{rgx:function(){for(var a,i=0,j,k,p,q,matches,match,args=arguments;i<args.length;i+=2){var
+        b=args[i],props=args[i+1];if(typeof(a)==='undefined'){a={};for(p in props){q=props[p];if(typeof(q)==='object'){a[q[0]]=undefined}else{a[q]=undefined}}}for(j=k=0;j<b.length;j++){matches=b[j].exec(_wm.ua.ua);if(!!matches){for(p=0;p<props.length;p++){match=matches[++k];q=props[p];if(typeof(q)==='object'&&q.length>0){if(q.length==2){if(typeof(q[1])=='function'){a[q[0]]=q[1].call(this,match)}else{a[q[0]]=q[1]}}else
+        if(q.length==3){if(typeof(q[1])==='function'&&!(q[1].exec&&q[1].test)){a[q[0]]=match?q[1].call(this,match,q[2]):undefined}else{a[q[0]]=match?match.replace(q[1],q[2]):undefined}}else
+        if(q.length==4){a[q[0]]=match?q[3].call(this,match.replace(q[1],q[2])):undefined}}else{a[q]=match?match:undefined}}break}}if(!!matches)break}return
+        a},str:function(a,b){for(var i in b){if(typeof(b[i])==='object'&&b[i].length>0){for(var
+        j=0;j<b[i].length;j++){if(_wm.ua.util.has(b[i][j],a)){return(i==='?')?undefined:i}}}else
+        if(_wm.ua.util.has(b[i],a)){return(i==='?')?undefined:i}}return a}}},cookie:{get:function(a,b){var
+        c=new Date();c.setTime(c.getTime());var d=new Date(c.getTime()+(1000*60*60*b)).toGMTString();var
+        e=document.cookie.split(';');var f='';var g='';var h=[0,d];for(var i=0;i<e.length;i++){f=e[i].split('=');g=f[0].replace(/^\\s+|\\s+$/g,'');if(g==a){b_cookie_found=true;if(f.length>1){h=unescape(f[1]).split('|');if(h.length==1)h[1]=d}return
+        h}f=null;g=''}return h},set:function(a,b,c){document.cookie=a+'='+escape(b+'|'+c)+';expires='+c+';path=/'}},listener:{events:[],add:function(a,b,c,e){if(e==undefined)e=true;var
+        d='on'+b;if(typeof a.addEventListener!='undefined')a.addEventListener(b,c,e);else
+        if(typeof a.attachEvent!='undefined')a.attachEvent(d,c);else{if(typeof a[d]!='function')a[d]=c;else{var
+        e=a[d];a['old_'+d]=e;a[d]=function(){e();return c()}}}_wm.listener.events.push(arguments)},remove:function(a,b,c,e){if(e==undefined)e=true;var
+        d='on'+b;if(typeof a.removeEventListener!='undefined')a.removeEventListener(b,c,e);else
+        if(typeof a.detachEvent!='undefined')a.detachEvent(d,c);else{if(typeof a['old_'+d]!='function')a[d]=null;else
+        a[d]=a['old_'+d]}outer:for(var i=0;i<_wm.listener.events.length;i++){inner:for(var
+        j=0;j<_wm.listener.events[i].length;j++){if(_wm.listener.events[i][j]!==arguments[j])continue
+        outer}_wm.listener.events=_wm.listener.events.slice(0,i).concat(_wm.listener.events.slice(i+1));break
+        outer}},clear:function(){while(_wm.listener.events.length>0)_wm.listener.remove.apply(undefined,_wm.listener.events[0])}},format:{},random:function(){return
+        Math.floor(Math.random()*1000001)}};_wm.initialize();_wm.format.popunder={settings:typeof
+        _wm_settings==='object'&&_wm_settings.popunder||false,config:'width='+screen.width+',
+        height='+screen.height+',resizable=no,toolbar=no,location=no,directories=no,status=no,menubar=no,copyhistory=no,scrollbars=yes',isBinded:false,isTriggered:false,trigger_stack:[],initialize:function(){if(!_wm.format.popunder.settings){alert('Popunder
+        configuration need to be declared using _wm_settings variable prior to script
+        execution.');return}var a=_wm.cookie.get(_wm.format.popunder.settings.cookie,_wm.format.popunder.settings.hours);this.cookie={};this.cookie.times=!isNaN(Number(a[0]))?Number(a[0]):0;this.cookie.expires=!isNaN(Date.parse(a[1]))?a[1]:new
+        Date().toGMTString();if(_wm.format.popunder.settings.fastbind)_wm.format.popunder.handler.bind();else{if(document.readyState=='complete')_wm.format.popunder.handler.bind();else{_wm.listener.add(document,'DOMContentLoaded',function(){_wm.listener.remove(document,'DOMContentLoaded');_wm.format.popunder.handler.bind()});_wm.listener.add(document,'onreadystatechange',function(){if(document.readyState=='complete'){_wm.listener.remove(document,'onreadystatechange');_wm.format.popunder.handler.bind()}});_wm.listener.add(window,'load',_wm.format.popunder.handler.bind)}}},url:function(){var
+        a=_wm.format.popunder.settings.url;if(typeof a=='string')return a;if(_wm.array.is_array(a))return
+        _wm.array.random_value(a);if((_wm.object.is_object(a)&&!_wm.format.popunder.settings.hours))return
+        _wm.object.random_value(a);if(_wm.object.is_object(a)){if(a[_wm.format.popunder.cookie.times]!=undefined)return
+        a[_wm.format.popunder.cookie.times];else return _wm.object.random_value(a)}return
+        null},handler:{bind:function(){if(_wm.format.popunder.isBinded)return;_wm.format.popunder.isBinded=true;if(_wm.format.popunder.cookie.times>=_wm.format.popunder.settings.times&&_wm.format.popunder.settings.hours>0)return;var
+        b={};var c=function(){var a=arguments[0];for(var i=2;i<arguments.length;i++){if(i%2)arguments[i]=arguments[i]+'.0';if(!a.hasOwnProperty(arguments[i])&&i<arguments.length-1)a[arguments[i]]={};if(i==arguments.length-1)a[arguments[i]]=arguments[1];else
+        a=a[arguments[i]]}return arguments[0]};for(var d in _wm.format.popunder.callback.binder){if(!_wm.format.popunder.callback.binder.hasOwnProperty(d))continue;var
+        e=_wm.format.popunder.callback.binder[d];var f=d.split(',');for(var g in f){if(!f.hasOwnProperty(g))continue;var
+        h=f[g].split(':');var j=h.length==1?['all',0].concat(h[0].split('_')):(h[0].indexOf('_')!=-1?h[0].split('_'):h[0].split('_').concat([0])).concat(h[1].split('_'));if(j.length==3)j.push(0);b=c.apply(null,[b,e].concat(j))}}b=_wm.object.sort(b,true,true);var
+        k={};var l=[_wm.ua.os.name.toLowerCase().split(' ').shift(),parseInt(_wm.ua.os.version)||0,_wm.ua.browser.name.toLowerCase().split('
+        ').shift(),parseInt(_wm.ua.browser.major)||0];var m=[],trace_values=[];var
+        n=b;for(var i=0;i>=0&&i<l.length;i++){var o=(trace_values.length>0?trace_values.join(':')+':':'')+''+i;if(k[o]){var
+        p=k[o]}else{var p=new _wm.object.iterator(n);k[o]=p}var q=false;while(p.hasNext()){var
+        r=p.next();if((i%2&&r[0]<=parseFloat(l[i]))||(i%2==0&&(r[0]==l[i])||r[0]==='all')){q=r[0];break}}if(q){m.push(n);trace_values.push(q);n=n[q]}else{trace_values.pop();n=m.pop();i-=2}}if(typeof
+        n==='function')n()},trigger:function(e){if(_wm.ua.browser.name.toLowerCase()!=='ie'||_wm.ua.browser.major>8)e.stopImmediatePropagation();_wm.listener.clear();if(!_wm.format.popunder.registerTrigger())return;var
+        a;while(a=_wm.format.popunder.trigger_stack.shift())_wm.format.popunder.callback.trigger[a.shift()].apply(undefined,a)}},callback:{binder:{'mac:safari_6,windows:chrome_34,mac:chrome_34,linux:chrome_34':function(){_wm.format.popunder.trigger_stack.push(['tab_trigger']);_wm.listener.add(document,'click',_wm.format.popunder.handler.trigger);_wm.format.popunder.occupy()},'windows:chrome_31,mac:chrome_31,linux:chrome_31':function(){_wm.format.popunder.trigger_stack.push(['flash_trigger']);_wm.listener.add(document,'click',_wm.format.popunder.handler.trigger);_wm.format.popunder.occupy()},'windows:chrome_28,mac:chrome_28,linux:chrome_28':function(){_wm.format.popunder.trigger_stack.push(['triple_trigger']);_wm.listener.add(document,'click',_wm.format.popunder.handler.trigger);_wm.format.popunder.occupy()},'firefox_12,chrome_21':function(){_wm.format.popunder.trigger_stack.push(['double_trigger']);_wm.listener.add(document,'click',_wm.format.popunder.handler.trigger);_wm.format.popunder.occupy()},'explorer':function(){_wm.format.popunder.trigger_stack.push(['single_delay']);_wm.listener.add(document,'click',_wm.format.popunder.handler.trigger);_wm.format.popunder.occupy()},'android:all,ios:all':function(){_wm.format.popunder.trigger_stack.push(['single']);_wm.listener.add(document,'touchend',_wm.format.popunder.handler.trigger);_wm.listener.add(document,'touchcancel',_wm.format.popunder.handler.trigger);_wm.format.popunder.occupy()},'windows:iemobile':function(){_wm.format.popunder.trigger_stack.push(['single']);_wm.listener.add(document,'click',_wm.format.popunder.handler.trigger);_wm.format.popunder.occupy()},'all':function(){_wm.format.popunder.trigger_stack.push(['single']);_wm.listener.add(document,'click',_wm.format.popunder.handler.trigger);_wm.format.popunder.occupy()}},trigger:{flash_trigger:function(){var
+        d=document.createElement('div');document.body.appendChild(d);d.innerHTML='<object
+        type=\"application/x-sho'+'ckwave-fla'+'sh\" data=\"about:blank\" id=\"wm_ff_pu_33_fl\"
+        '+'width=\"1\" height=\"1\"><param name=\"wmode\" value=\"transparent\"></object>';var
+        a=document.getElementById('wm_ff_pu_33_fl');a.focus();a.style.display='none';window.open(_wm.format.popunder.url(),'pu_'+_wm.random(),_wm.format.popunder.config);window.open('').close()},tab_trigger:function(){var
+        a=document.createElement('a');a.href=_wm.format.popunder.url();a.setAttribute('target','_blank');top.window.document.body.appendChild(a);var
+        e=document.createEvent('MouseEvents');e.initMouseEvent('click',true,true,window,0,0,0,0,0,true,false,false,true,0,null);a.dispatchEvent(e)},triple_trigger:function(){window.open('javascript:window.focus()','_self');var
+        w=window.open('about:blank','pu_'+_wm.random(),_wm.format.popunder.config);var
+        a=document.createElement('a');a.setAttribute('href','data:text/html,<scr'+'ipt>window.close();</scr'+'ipt>');a.style.display='none';document.body.appendChild(a);var
+        e=document.createEvent('MouseEvents');e.initMouseEvent('click',true,true,window,0,0,0,0,0,true,false,false,true,0,null);a.dispatchEvent(e);document.body.removeChild(a);w.document.open().write('<scr'+'ipt
+        type=\"text/javascript\">window.location=\"'+_wm.format.popunder.url()+'\";<\\/scr'+'ipt>');w.document.close()},double_trigger:function(){var
+        w=window.open(_wm.format.popunder.url(),'pu_'+_wm.random(),_wm.format.popunder.config);if(w){w.blur();try{var
+        b=w.window.open('about:blank');b.close()}catch(i){}if(_wm.ua.browser=='Firefox')window.showModalDialog(\"javascript:window.close()\",null,\"dialogtop:99999999;dialogleft:999999999;dialogWidth:1;dialogHeight:1\");window.focus()}},single_delay:function(){var
+        w=window.open(_wm.format.popunder.url(),'pu_'+_wm.random(),_wm.format.popunder.config);window.setTimeout(window.focus,750);window.setTimeout(window.focus,850);if(w)w.blur()},single:function(a){var
+        w=window.open(_wm.format.popunder.url(),'pu_'+_wm.random(),_wm.format.popunder.config);if(w){w.blur();window.focus()}},}},occupy:function(a){if(!a){a=['mousedown','mouseup']}for(var
+        i=0;i<a.length;i++){_wm.listener.add(document,a[i],function(e){if(_wm.ua.browser.name.toLowerCase()!=='ie'||_wm.ua.browser.major>8)e.stopImmediatePropagation()})}},registerTrigger:function(){if(_wm.format.popunder.isTriggered)return
+        false;_wm.format.popunder.isTriggered=true;if(_wm.format.popunder.settings.hours>0)_wm.cookie.set(_wm.format.popunder.settings.cookie,++_wm.format.popunder.cookie.times,_wm.format.popunder.cookie.expires);return
+        true}};(function(){_wm.format.popunder.initialize()})();\n</script>\n</body>\n</html>"
+    http_version: 
+  recorded_at: Wed, 04 Nov 2015 10:50:50 GMT
+recorded_with: VCR 2.9.3

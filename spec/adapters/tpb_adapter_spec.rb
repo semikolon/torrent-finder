@@ -12,7 +12,7 @@ describe TorrentFinder::Adapters::TpbAdapter do
     it "should list first page of torrent" do
       list = subject.list
       expect(list).to be_a(Array)
-      expect(list.any?{|item| item[:name] =~ /Colbert/}).to be_truthy
+      expect(list.any?{|item| item[:name] =~ /Limitless/}).to be_truthy
     end
   end
 

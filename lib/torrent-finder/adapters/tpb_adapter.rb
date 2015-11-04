@@ -31,12 +31,14 @@ module TorrentFinder
       protected
       def parse_html(doc)
         doc = Nokogiri::HTML(doc) if doc.is_a?(String)
-        rows = doc.search(".forum_header_border")
-        rows.collect do |row| 
-          name = row.search(".forum_thread_post .epinfo").first.text rescue nil
-          url =  row.search(".forum_thread_post .magnet").first["href"] rescue nil
+        rows = doc.search("table#searchResult tr")
+        rows.collect do |row|
+          next if row.attr('class') == 'header'
+          next if row.to_s.include?('https://piratebay.org/img/next.gif')
+          name = row.search("a.detLink").first.text rescue nil
+          url = row.search('img[alt="Magnet link"]').first.parent['href'] rescue nil
           Torrent.new(name, url)
-        end.select {|row| row.name && row.url }
+        end.compact.select {|row| row.name && row.url }
       end
     end
   end
