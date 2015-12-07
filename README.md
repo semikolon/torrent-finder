@@ -25,7 +25,7 @@ $ torrent-finder "Carl Sagans Cosmos" --site=eztv
 ```
 
 
-If you have [peerflix](https://github.com/mafintosh/peerflix) install, you can launch peerflix with the torrent. 
+If you have [peerflix](https://github.com/mafintosh/peerflix) install, you can launch peerflix with the torrent.
 
 To search "Magi" on popgo, then launch peerflix with first result.
 
@@ -37,12 +37,20 @@ $ torrent-finder Magi --site=popgo --peerflix
 
 Currently following sites are supported:
 
+- tpb
+- kat
+- eztv
 - popgo
 - dmhy
 - nyaa
-- eztv
 
 ## Change Logs
+
+0.3.5
+=====
+
+- Add adapters for tpb and kat sites
+- Clearer error given when no torrent found
 
 0.3.1
 =====
