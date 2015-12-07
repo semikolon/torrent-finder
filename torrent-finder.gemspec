@@ -6,10 +6,10 @@ require 'torrent-finder/version'
 Gem::Specification.new do |spec|
   spec.name          = "torrent-finder"
   spec.version       = TorrentFinder::VERSION
-  spec.authors       = ["Francis Chong"]
-  spec.email         = ["francis@ignition.hk"]
+  spec.authors       = ["Francis Chong", "Fredrik Bränström"]
+  spec.email         = ["francis@ignition.hk", "branstrom@gmail.com"]
   spec.summary       = %q{Extensible command line tool to search torrent.}
-  spec.homepage      = "https://github.com/siuying/torrent-finder"
+  spec.homepage      = "https://github.com/semikolon/torrent-finder"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
