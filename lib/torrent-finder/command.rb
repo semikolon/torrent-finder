@@ -21,7 +21,7 @@ module TorrentFinder
     def initialize(argv)
       @use_peerflix = argv.flag?('peerflix', false)
       @list = argv.flag?('list', false)
-      @site = argv.option('site', "tpb")
+      @site = argv.option('site', "kat")
       @keywords = argv.shift_argument
 
       super
@@ -41,8 +41,8 @@ module TorrentFinder
 
       adapter_clazz = TorrentFinder::Adapters::Registry.adapters.find{|adapter| adapter.name == @site }
       unless adapter_clazz
-        puts "Not supported: #{@site}"  
-        return     
+        puts "Not supported: #{@site}"
+        return
       end
 
       adapter = adapter_clazz.new
