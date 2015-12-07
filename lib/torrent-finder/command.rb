@@ -54,7 +54,11 @@ module TorrentFinder
 
       if @use_peerflix
         torrent = torrents.find {|torrent| torrent.name.include?(@keywords) } || torrents.first
-        exec %{peerflix "#{torrent.url}" --vlc -r}
+        if torrent.nil?
+          puts "No torrent matches '#{@keywords}'"
+        else
+          exec %{peerflix "#{torrent.url}" --vlc -r}
+        end
       else
         torrents.each do |torrent|
           puts "#{torrent.name},#{torrent.url}"
